@@ -179,7 +179,7 @@ const config = {
     ],
     "ghlWebhookUrl": "",
     "theme": "dark",
-    "primaryColorOverride": "",
+    "primaryColorOverride": "#e1a75d",
     "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "showCountdownInHero": true
   },
@@ -192,7 +192,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750199704329_0",
+      "id": "q_auto_1750199783253_0",
       "questionText": "When planning a day out with your family, which activity excites you the most?",
       "options": [
         {
@@ -214,7 +214,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750199704329_1",
+      "id": "q_auto_1750199783253_1",
       "questionText": "Which upcoming change are you most excited about in your family's life?",
       "options": [
         {
@@ -236,7 +236,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750199704329_2",
+      "id": "q_auto_1750199783253_2",
       "questionText": "How often do you attend local community events or family-oriented activities?",
       "options": [
         {
@@ -258,7 +258,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750199704329_3",
+      "id": "q_auto_1750199783253_3",
       "questionText": "In terms of home improvements, what are your family’s current priorities?",
       "options": [
         {
