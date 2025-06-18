@@ -177,7 +177,7 @@ const config = {
       "#FFFFFF",
       "#FFF5E6"
     ],
-    "ghlWebhookUrl": "",
+    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/xQnNbKj5o8sXeiDOYjjO/webhook-trigger/FCvoW3VGbX3gxk7ZWt03",
     "theme": "dark",
     "primaryColorOverride": "#e1a75d",
     "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
@@ -186,13 +186,13 @@ const config = {
   "deploymentInfo": {
     "repoName": "Giveaway-763",
     "repoUrl": "https://github.com/arslvn93/Giveaway-763",
-    "tag": "Canada’s Wonderland Family Adventure",
+    "tag": "Wonderland Giveaway",
     "netlifyUrl": "http://Giveaway-763.netlify.app",
     "netlifyId": "1003942178"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750200021148_0",
+      "id": "q_auto_1750267033601_0",
       "questionText": "When planning a day out with your family, which activity excites you the most?",
       "options": [
         {
@@ -214,7 +214,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750200021148_1",
+      "id": "q_auto_1750267033601_1",
       "questionText": "Which upcoming change are you most excited about in your family's life?",
       "options": [
         {
@@ -236,7 +236,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750200021148_2",
+      "id": "q_auto_1750267033601_2",
       "questionText": "How often do you attend local community events or family-oriented activities?",
       "options": [
         {
@@ -258,7 +258,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750200021148_3",
+      "id": "q_auto_1750267033601_3",
       "questionText": "In terms of home improvements, what are your family’s current priorities?",
       "options": [
         {
