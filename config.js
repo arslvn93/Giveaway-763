@@ -1,16 +1,35 @@
 const config = {
+  "meta": {
+    "pageTitle": "Canada’s Wonderland Family Adventure Giveaway",
+    "navBrandLogoText": "WONDERLAND GIVEAWAY",
+    "privacyPolicyLink": "https://property.ca/privacy"
+  },
   "giveaway": {
-    "name": "Canada’s Wonderland Family Adventure",
     "heroHeadline": "Unleash the Fun at <span class='highlight'>Canada’s Wonderland!</span>",
     "heroSubheadline": "Win a Family Day Out Worth $400 and Create Memories That Last a Lifetime!",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/pzmae5e94hrm80cqfzjvb99n9w.jpg",
     "promotionDates": "Promotion runs from June 23, 2025 until July 17, 2025.",
     "endDate": "2025-07-18T03:59:00.000Z",
-    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/pzmae5e94hrm80cqfzjvb99n9w.jpg",
     "heroCtaText": "Enter Now for a Chance to Win!",
     "entryFormCtaText": "Count Me In!",
+    "name": "Canada’s Wonderland Family Adventure",
     "successModalHeaderText": "🎉 You're In! 🎉",
     "successModalMainMessage": "Your entry for the <strong>Canada’s Wonderland Family Adventure Giveaway</strong> has been successfully submitted. Best of luck!",
     "successModalEmailPrompt": "We'll announce the winner via email after the draw date. Keep an eye on your inbox!"
+  },
+  "settings": {
+    "confettiColors": [
+      "#FF7A00",
+      "#FFC107",
+      "#4CAF50",
+      "#FFFFFF",
+      "#FFF5E6"
+    ],
+    "showCountdownInHero": true,
+    "theme": "dark",
+    "primaryColorOverride": "#e1a75d",
+    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/xQnNbKj5o8sXeiDOYjjO/webhook-trigger/FCvoW3VGbX3gxk7ZWt03",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -92,15 +111,6 @@ const config = {
       }
     ]
   },
-  "entryForm": {
-    "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-763.netlify.app%2Fadmin",
-      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-763.netlify.app%2Fadmin&text=Win%20a%20%24400%20Family%20Adventure%20at%20Canada%E2%80%99s%20Wonderland!%20Enter%20now!"
-    },
-    "subtitle": "Provide your details below for a chance to win an exciting family day at Canada’s Wonderland!",
-    "entryCountText": "Over 300+ families have entered! Don’t miss out!",
-    "socialSharePrompt": "Share the excitement with your friends:"
-  },
   "rules": {
     "faq": [
       {
@@ -142,142 +152,110 @@ const config = {
       "text": "The winner will be contacted via the provided email on or about July 17, 2025. Please check your inbox and spam folder regularly after the giveaway period."
     }
   },
+  "entryForm": {
+    "sharePlatforms": {
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-763.netlify.app%2Fadmin",
+      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-763.netlify.app%2Fadmin&text=Win%20a%20%24400%20Family%20Adventure%20at%20Canada%E2%80%99s%20Wonderland!%20Enter%20now!"
+    },
+    "subtitle": "Provide your details below for a chance to win an exciting family day at Canada’s Wonderland!",
+    "entryCountText": "Over 300+ families have entered! Don’t miss out!",
+    "socialSharePrompt": "Share the excitement with your friends:"
+  },
+  "modalQuestions": [
+    {
+      "id": "q_auto_1750445599852_0",
+      "questionText": "What do you like the most about your current home?",
+      "options": [
+        {
+          "value": "The location",
+          "text": "The location"
+        },
+        {
+          "value": "The layout",
+          "text": "The layout"
+        },
+        {
+          "value": "The finishes (paint, lighting, etc.)",
+          "text": "The finishes (paint, lighting, etc.)"
+        },
+        {
+          "value": "The outdoor space",
+          "text": "The outdoor space"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750445599853_1",
+      "questionText": "Is a move on your radar in the near future?",
+      "options": [
+        {
+          "value": "Yes, sometime in 2025",
+          "text": "Yes, sometime in 2025"
+        },
+        {
+          "value": "Yes, in the next 1–2 years",
+          "text": "Yes, in the next 1–2 years"
+        },
+        {
+          "value": "Not at the moment",
+          "text": "Not at the moment"
+        },
+        {
+          "value": "I’m not sure yet",
+          "text": "I’m not sure yet"
+        }
+      ]
+    },
+    {
+      "id": "q_auto_1750445599853_2",
+      "questionText": "What’s your current housing situation?",
+      "options": [
+        {
+          "value": "I rent and am interested in buying",
+          "text": "I rent and am interested in buying"
+        },
+        {
+          "value": "I own and might sell within 2 years",
+          "text": "I own and might sell within 2 years"
+        },
+        {
+          "value": "I own and am happy where I am",
+          "text": "I own and am happy where I am"
+        },
+        {
+          "value": "I’m actively looking to buy or sell now",
+          "text": "I’m actively looking to buy or sell now"
+        }
+      ]
+    }
+  ],
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/profile.php?id=61567387292681",
       "instagram": "https://www.instagram.com/mylesschwartz.to"
     },
-    "organizerName": "Myles Schwartz Real Estate",
-    "brokerageName": "Brokerage: Property.ca Inc.",
-    "organizerLogoUrl": "https://iss-cdn.myrealpage.com/D5-RnVTh4iDQhQ7VSUSD-8cqabaOGOVBesXT-1jKQS4/rs:auto:2019:0:0/g:sm/bG9jYWw6Ly8vZGF0YS9hcHAvd3BzL20veS9sL2UvbXlsZXMtc2Nod2FydHoubXlyZWFscGFnZXdlYnNpdGUuY29tL19tZWRpYS9jdXN0b20vTVMtbG9nby13aGl0ZS5wbmc_dD0xNzM3MTU0NTg5Njc1?t=1737154589675",
-    "secondaryLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGPVOOYpFZqEw/company-logo_200_200/company-logo_200_200/0/1688154975816?e=2147483647&v=beta&t=7jJ7WNvQUL5algGYioRxWaB8IzwpsXM9q_90_S-QsFw",
-    "secondaryLogoAlt": "",
-    "email": "contact@mylesschwartz.com",
-    "phone": "647-999-5594",
-    "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
-    "footerDisclaimer": "Terms and conditions apply. Giveaway ends July 15, 2025. Must be potential homebuyers or growing families to enter.",
-    "copyrightOwner": "Property.Ca",
     "agentContact": {
       "name": "Myles Schwartz",
       "title": "Real Estate Agent",
       "phone": "647-999-5594",
       "email": "contact@mylesschwartz.com"
-    }
-  },
-  "meta": {
-    "pageTitle": "Canada’s Wonderland Family Adventure Giveaway",
-    "navBrandLogoText": "WONDERLAND GIVEAWAY",
-    "privacyPolicyLink": "https://property.ca/privacy"
-  },
-  "settings": {
-    "confettiColors": [
-      "#FF7A00",
-      "#FFC107",
-      "#4CAF50",
-      "#FFFFFF",
-      "#FFF5E6"
-    ],
-    "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/xQnNbKj5o8sXeiDOYjjO/webhook-trigger/FCvoW3VGbX3gxk7ZWt03",
-    "theme": "dark",
-    "primaryColorOverride": "#e1a75d",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
-    "showCountdownInHero": true
+    },
+    "footerDisclaimer": "Terms and conditions apply. Giveaway ends July 15, 2025. Must be potential homebuyers or growing families to enter.",
+    "organizerLogoUrl": "https://iss-cdn.myrealpage.com/D5-RnVTh4iDQhQ7VSUSD-8cqabaOGOVBesXT-1jKQS4/rs:auto:2019:0:0/g:sm/bG9jYWw6Ly8vZGF0YS9hcHAvd3BzL20veS9sL2UvbXlsZXMtc2Nod2FydHoubXlyZWFscGFnZXdlYnNpdGUuY29tL19tZWRpYS9jdXN0b20vTVMtbG9nby13aGl0ZS5wbmc_dD0xNzM3MTU0NTg5Njc1?t=1737154589675",
+    "secondaryLogoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGPVOOYpFZqEw/company-logo_200_200/company-logo_200_200/0/1688154975816?e=2147483647&v=beta&t=7jJ7WNvQUL5algGYioRxWaB8IzwpsXM9q_90_S-QsFw",
+    "secondaryLogoAlt": "",
+    "organizerName": "Myles Schwartz Real Estate",
+    "brokerageName": "Brokerage: Property.ca Inc.",
+    "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
+    "email": "contact@mylesschwartz.com",
+    "phone": "647-999-5594",
+    "copyrightOwner": "Property.Ca"
   },
   "deploymentInfo": {
     "repoName": "Giveaway-763",
     "repoUrl": "https://github.com/arslvn93/Giveaway-763",
-    "tag": "Wonderland Giveaway",
     "netlifyUrl": "http://Giveaway-763.netlify.app",
-    "netlifyId": "1003942178"
-  },
-  "modalQuestions": [
-    {
-      "id": "q_auto_1750267128543_0",
-      "questionText": "When planning a day out with your family, which activity excites you the most?",
-      "options": [
-        {
-          "value": "Exploring new neighborhoods",
-          "text": "Exploring new neighborhoods"
-        },
-        {
-          "value": "Visiting amusement parks",
-          "text": "Visiting amusement parks"
-        },
-        {
-          "value": "Having a picnic in the park",
-          "text": "Having a picnic in the park"
-        },
-        {
-          "value": "Staying at home with a movie",
-          "text": "Staying at home with a movie"
-        }
-      ]
-    },
-    {
-      "id": "q_auto_1750267128543_1",
-      "questionText": "Which upcoming change are you most excited about in your family's life?",
-      "options": [
-        {
-          "value": "Adding new family members",
-          "text": "Adding new family members"
-        },
-        {
-          "value": "Upgrading our home",
-          "text": "Upgrading our home"
-        },
-        {
-          "value": "Planning a big family vacation",
-          "text": "Planning a big family vacation"
-        },
-        {
-          "value": "Focusing on new hobbies",
-          "text": "Focusing on new hobbies"
-        }
-      ]
-    },
-    {
-      "id": "q_auto_1750267128543_2",
-      "questionText": "How often do you attend local community events or family-oriented activities?",
-      "options": [
-        {
-          "value": "Every week",
-          "text": "Every week"
-        },
-        {
-          "value": "A few times a month",
-          "text": "A few times a month"
-        },
-        {
-          "value": "Rarely",
-          "text": "Rarely"
-        },
-        {
-          "value": "Never",
-          "text": "Never"
-        }
-      ]
-    },
-    {
-      "id": "q_auto_1750267128543_3",
-      "questionText": "In terms of home improvements, what are your family’s current priorities?",
-      "options": [
-        {
-          "value": "Expanding space for kids",
-          "text": "Expanding space for kids"
-        },
-        {
-          "value": "Creating a home office",
-          "text": "Creating a home office"
-        },
-        {
-          "value": "Enhancing outdoor living space",
-          "text": "Enhancing outdoor living space"
-        },
-        {
-          "value": "No plans currently",
-          "text": "No plans currently"
-        }
-      ]
-    }
-  ]
+    "netlifyId": "1003942178",
+    "tag": "Wonderland Giveaway"
+  }
 };
