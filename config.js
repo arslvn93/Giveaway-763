@@ -29,7 +29,16 @@ const config = {
     "theme": "dark",
     "primaryColorOverride": "#e1a75d",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/xQnNbKj5o8sXeiDOYjjO/webhook-trigger/FCvoW3VGbX3gxk7ZWt03",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
+    "facebookPixelId": "1057475448873422",
+    "salesGeniusAppApi": "",
+    "followUpBossEmail": ""
+  },
+  "thankYouPage": {
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "🎉 ONE MORE STEP",
+    "mainMessage": "Your spot for the <strong>Canada’s Wonderland Family Adventure Giveaway</strong> is almost locked in! You've made it to the final step of the giveaway - congratulations! Now all you need to do is follow my social media accounts to officially lock in your entry and stay connected",
+    "socialPromptText": "FOLLOW BOTH TO WIN! Complete Your Entry Now"
   },
   "prize": {
     "images": [
