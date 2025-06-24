@@ -29,16 +29,10 @@ const config = {
     "theme": "dark",
     "primaryColorOverride": "#e1a75d",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/xQnNbKj5o8sXeiDOYjjO/webhook-trigger/FCvoW3VGbX3gxk7ZWt03",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "🎉 ONE MORE STEP",
-    "mainMessage": "Your spot for the <strong>Canada’s Wonderland Family Adventure Giveaway</strong> is almost locked in! You've made it to the final step of the giveaway - congratulations! Now all you need to do is follow my social media accounts to officially lock in your entry and stay connected",
-    "socialPromptText": "FOLLOW BOTH TO WIN! Complete Your Entry Now"
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -96,8 +90,8 @@ const config = {
       },
       {
         "icon": "fas fa-share-alt",
-        "title": "Share (Optional)",
-        "description": "Spread the word on social media after you enter. Sharing is caring, but not required."
+        "title": "Follow my social media",
+        "description": "Please follow my Facebook and Instagram pages to make your entry valid! They are at the bottom of this page."
       },
       {
         "icon": "fas fa-envelope-open-text",
@@ -124,7 +118,7 @@ const config = {
     "faq": [
       {
         "q": "Who can enter the giveaway?",
-        "a": "This contest is open to potential homebuyers, young couples, and families interested in upsizing or buying their first home. Must be 18 or older and reside in the eligible region."
+        "a": "This contest is open to young couples, families and anyone interested in having a great day out. Must be 18 or older and reside in the eligible region."
       },
       {
         "q": "What are the giveaway dates?",
@@ -172,7 +166,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750445599852_0",
+      "id": "q_auto_1750786234275_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -194,7 +188,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445599853_1",
+      "id": "q_auto_1750786234275_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -216,7 +210,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750445599853_2",
+      "id": "q_auto_1750786234275_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
@@ -238,6 +232,18 @@ const config = {
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "🎉 ONE MORE STEP",
+    "mainMessage": "Your spot for the <strong>Canada’s Wonderland Family Adventure Giveaway</strong> is almost locked in! You've made it to the final step of the giveaway - congratulations! Now all you need to do is follow my social media accounts to officially lock in your entry and stay connected",
+    "socialPromptText": "FOLLOW BOTH TO WIN! Complete Your Entry Now"
+  },
   "footerContact": {
     "social": {
       "facebook": "https://www.facebook.com/profile.php?id=61567387292681",
