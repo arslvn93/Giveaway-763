@@ -161,12 +161,12 @@ const config = {
       "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-763.netlify.app%2Fadmin&text=Win%20a%20%24400%20Family%20Adventure%20at%20Canada%E2%80%99s%20Wonderland!%20Enter%20now!"
     },
     "subtitle": "Provide your details below for a chance to win an exciting family day at Canada’s Wonderland!",
-    "entryCountText": "Over 300+ families have entered! Don’t miss out!",
+    "entryCountText": "Over 100+ families have entered! Don’t miss out!",
     "socialSharePrompt": "Share the excitement with your friends:"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750786234275_0",
+      "id": "q_auto_1750786260465_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -188,7 +188,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750786234275_1",
+      "id": "q_auto_1750786260465_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -210,7 +210,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750786234275_2",
+      "id": "q_auto_1750786260465_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
