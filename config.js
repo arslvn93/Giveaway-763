@@ -122,7 +122,7 @@ const config = {
       },
       {
         "q": "What are the giveaway dates?",
-        "a": "Entries open on June 23, 2025, and close on July 17, 2025 at 11:59 PM local time."
+        "a": "Entries open on July 7, 2025, and close on July 30, 2025 at 11:59 PM local time."
       },
       {
         "q": "How is the winner selected?",
@@ -130,7 +130,7 @@ const config = {
       },
       {
         "q": "When will the winner be announced?",
-        "a": "The winner will be notified via email on or about July 17, 2025."
+        "a": "The winner will be notified via email on or about August 1st, 2025."
       },
       {
         "q": "Can I enter multiple times?",
@@ -152,7 +152,7 @@ const config = {
     },
     "importantNotice": {
       "title": "Winner Notification - Check Your Email!",
-      "text": "The winner will be contacted via the provided email on or about July 17, 2025. Please check your inbox and spam folder regularly after the giveaway period."
+      "text": "The winner will be contacted via the provided email on or about August 1, 2025. Please check your inbox and spam folder regularly after the giveaway period."
     }
   },
   "entryForm": {
@@ -166,7 +166,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1751481419787_0",
+      "id": "q_auto_1751481655526_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -188,7 +188,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1751481419787_1",
+      "id": "q_auto_1751481655526_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -210,7 +210,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1751481419787_2",
+      "id": "q_auto_1751481655526_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
