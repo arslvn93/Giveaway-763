@@ -8,8 +8,8 @@ const config = {
     "heroHeadline": "Unleash the Fun at <span class='highlight'>Canada’s Wonderland!</span>",
     "heroSubheadline": "Win a Family Day Out Worth $400 and Create Memories That Last a Lifetime!",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/pzmae5e94hrm80cqfzjvb99n9w.jpg",
-    "promotionDates": "Promotion runs from June 23, 2025 until July 17, 2025.",
-    "endDate": "2025-07-18T03:59:00.000Z",
+    "promotionDates": "Promotion runs from July 7, 2025 until July 30, 2025.",
+    "endDate": "2025-07-31T03:59:00.000Z",
     "heroCtaText": "Enter Now for a Chance to Win!",
     "entryFormCtaText": "Count Me In!",
     "name": "Canada’s Wonderland Family Adventure",
@@ -166,7 +166,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750786278400_0",
+      "id": "q_auto_1751481419787_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -188,7 +188,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750786278400_1",
+      "id": "q_auto_1751481419787_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -210,7 +210,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1750786278400_2",
+      "id": "q_auto_1751481419787_2",
       "questionText": "What’s your current housing situation?",
       "options": [
         {
